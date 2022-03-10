@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500&family=Fredoka:wght@300&display=swap');
 
+/*header,footer background-color:#CFBAF0/
 
+/*Button, a background-color: #FFCFD2
+
+            text-color:#edf2fb/
+
+/*Button, a:hover background-color: #fcadb2/
+
+/*H1-main-page background-color:#98F5E1;*/
+
+/*main-page cake sections, 1 - background-color:#8EECF5 ,  1 - background-color:#90DBF4 ,  1 - background-color:#A3C4F3/
 
 /*---------*/
 /*↓GLOBAL↓*/
@@ -46,12 +56,12 @@ ul {
 
 a{
     text-decoration: none;
-    color: #ff6e81;
+    color: #edf2fb;
     transition: all 0.3s;
     font-family: Fredoka;
 }
 a:hover{
-    color: #F1C0E8;
+    color: #c6daff;
 }
 
 
@@ -71,7 +81,7 @@ li{
 /*↓NAVBAR↓*/
 /*-------*/
 .nav__style{
-    background-color: #844fff;
+    background-color: #CFBAF0;
 }
 .nav__logo{
     width: 80px;
@@ -111,13 +121,13 @@ li{
 }
 
 .section_2{
-    background-color: #FFCFD2;
+    background-color: #8EECF5;
 }
 .section_3{
-    background-color: #FBF8CC;
+    background-color: #90DBF4;
 }
 .section_4{
-    background-color: #8EECF5;
+    background-color: #A3C4F3;
 }
 .section_2,.section_3,.section_4 {
     max-width: 100%;
@@ -129,7 +139,7 @@ h1 {
     margin: 0 ;
     max-width: 100%;
     text-align: center;
-    background-color: #B9FBC0;
+    background-color: #98F5E1;
 }
 
 
@@ -165,15 +175,15 @@ h1 {
     min-height: 100%;
     margin: 0 auto;
     height: 200px;
-    background-color: #844fff;
+    background-color: #CFBAF0;
 }
 footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    
     height: 100%;
-
+    max-width: 1200px;
+    margin: 0 auto;
 }
 h1,footer>li{
     font-family: 'Fredoka', sans-serif;
@@ -278,9 +288,10 @@ h3{
 .btn__cake__page{
     width: 100%;
     height: 100%;
+    color: #edf2fb;
 }
 .btn__cake__page:hover{
-    background-color: #b282ff
+    background-color: #fcadb2
 }
 
 .price__body__cards{
@@ -305,7 +316,7 @@ h3{
 .contact__information{
 padding: 2rem;
 margin: 0 auto;
-background-color: white;
+background-color: #CFBAF0;
 border-radius: 6px;
 display: flex;
 justify-content: space-between;
@@ -338,6 +349,7 @@ height: 100%;
     width: 100%;
     height: 20%;
     margin: 0 auto;
+    color: #FFCFD2;
 }
 .border__line{
     border: 1px salmon solid;
@@ -392,6 +404,14 @@ height: 100%;
             margin: 1rem;
             margin-left: 2rem;
         }
+        /*FOOTER*/
+
+        .footer__container{
+            height: 100%;
+            margin-top: 1rem;
+            min-width: 300px;
+        }
+
         footer{
             display: flex;
             flex-wrap: wrap;
@@ -443,8 +463,13 @@ height: 100%;
         /*p-CONTACT*/
         .contact__information{
             width: 100%;
-            height: 600px;
+            height: 700px;
             margin: 0 auto;
+            min-width: 350px;
+            padding: 0;
+        }
+        .magasine__adresse, .magasine__contact{
+            padding: 1.6rem;
         }
     }
     
