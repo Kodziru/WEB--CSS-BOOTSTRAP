@@ -66,3 +66,107 @@ li{
     text-align: center;
     line-height: 100%;
 }
+
+/*-----------*/
+/*↓p-GATEAU↓*/
+/*---------*/
+.container__cake__body{
+    min-width: 100%;
+    background-color: #8EECF5;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.cook__img{
+    max-width: 100%;
+    width: 300px;
+
+}
+.cake__flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid__card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    padding: 2rem;
+    max-width: 1200px;
+    min-width: 350px;
+    margin: 0 auto;
+}
+
+.card__item{
+    background-color: #dec9ff;
+    display: grid;
+    align-self: center;
+    justify-self:center;
+    margin: 1rem;
+    height: 100%;
+
+}
+.grid__card > article {
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.grid__card > article img {
+border-radius: 6px;
+  max-width: 100%;
+  height: 250px;
+  width: 100%;
+}
+
+.grid__card .text {
+  height: 200px;
+  text-align: center;
+}
+
+
+
+.text{
+    grid: auto-flow / 1fr 1fr 1fr;
+}
+
+
+h3{
+    margin: 1rem;
+    font-family: Fredoka ;
+}
+
+
+.btn__cake__page {
+    background-color: #CFBAF0;
+    border-radius: 6px;
+    height: 50px;
+    width: 80px;
+    border: none;
+    transition: all 0.3s;
+    font-family: 'Atma', cursive;
+    width: 100%;
+    
+}
+.btn__body{
+    height: 55px;
+    display: grid;
+    align-self: end;
+}
+.btn__cake__page{
+    width: 100%;
+    height: 100%;
+}
+.btn__cake__page:hover{
+    background-color: #b282ff
+}
+
+.price__body__cards{
+    display: grid;
+    align-self: end;
+    justify-self: center;
+}
