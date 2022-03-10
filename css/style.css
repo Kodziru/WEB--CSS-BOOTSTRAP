@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500&family=Fredoka:wght@300&display=swap');
+
+
+
+/*---------*/
+/*↓GLOBAL↓*/
+/*-------*/
+
+html,body {
+    max-width: 1200;
+    min-width: 350;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #B8E1FF;
+    overflow-x: hidden; /* Hide scrollbars */
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    pointer-events: none;
+}
+
+li,img{
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+}
+
+.contact__main__page{
+    flex: 1 1 auto;
+}
+
+ul { 
+    list-style: none; 
+    padding-left: 0px; 
+}
+
+a{
+    text-decoration: none;
+    color: #ff6e81;
+    transition: all 0.3s;
+    font-family: Fredoka;
+}
+a:hover{
+    color: #F1C0E8;
+}
+
+
+h2,p{
+    font-family: 'Atma', cursive;
+}
+li{
+    list-style-type: none;
+    letter-spacing: 1px;
+}
+.modal-body{
+    text-align: center;
+    line-height: 100%;
+}
