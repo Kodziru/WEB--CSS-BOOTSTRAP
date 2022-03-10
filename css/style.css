@@ -67,6 +67,124 @@ li{
     line-height: 100%;
 }
 
+/*---------*/
+/*↓NAVBAR↓*/
+/*-------*/
+.nav__style{
+    background-color: #844fff;
+}
+.nav__logo{
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    color:#FBF8CC
+}
+
+
+.navbar-toggler-icon{
+    color:#FBF8CC ;
+}
+.nav-link{
+    color: #FBF8CC;
+    transition: all 0.3s;
+    font-size: 1.6rem;
+    font-family: 'Atma', cursive;
+}
+.nav-link:hover{
+    color: #fdfdfd;
+}
+
+
+/*-------*/
+/*↓MAIN↓*/
+/*-----*/
+
+
+.chocolate__img{
+    max-width: 100%;
+    width: 350px;
+    border: #844fff 1px solid;
+    border-radius: 6px;
+}
+
+.section_2{
+    background-color: #FFCFD2;
+}
+.section_3{
+    background-color: #FBF8CC;
+}
+.section_4{
+    background-color: #8EECF5;
+}
+.section_2,.section_3,.section_4 {
+    max-width: 100%;
+    height: auto;
+    } 
+
+
+h1 {
+    margin: 0 ;
+    max-width: 100%;
+    text-align: center;
+    background-color: #B9FBC0;
+}
+
+
+.article__buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.price__body{
+    display: flex;
+    justify-content: center;
+}
+.btn__buy {
+    background-color: #CFBAF0;
+    border-radius: 6px;
+    height: 50px;
+    width: 80px;
+    border: none;
+    transition: all 0.3s;
+    font-family: 'Atma', cursive;
+    
+}
+.btn__buy:hover{
+    background-color: #b282ff
+}
+/*---------*/
+/*↓FOOTER↓*/
+/*-------*/
+
+.footer__container{
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    height: 200px;
+    background-color: #844fff;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+
+}
+h1,footer>li{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.info{ 
+    text-align: center;
+    padding: 0.8rem;
+    margin: 0;
+}
+
 /*-----------*/
 /*↓p-GATEAU↓*/
 /*---------*/
@@ -226,3 +344,239 @@ height: 100%;
     width: 100px;
     height: 2px; 
 }
+
+
+@media (max-width: 576px) { 
+    /*main*/
+        .price__body {
+            height: 4rem;
+            width: 50%;
+            align-items: center;
+        }
+        .btn__buy {
+            padding: 0;
+        }
+        .price__body{
+    
+            margin-left: 1rem;
+        }
+        s{
+            padding-left: 1rem;
+        }
+        .page__info{
+            margin: 1rem;
+        }
+        .page__info__h2{
+            font-size: 1.3rem;
+        }
+        h2{
+            font-size: 2rem;
+        }
+        .chocolate__info__body{
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+        }
+        .chocolate__img{
+            min-width: 100px;
+            width: 258px;
+            height: 500px;
+            object-fit:cover;
+            object-position: center;
+            margin-left: 1rem;
+            margin-top: 1rem;
+        }
+        .chocolate__info{
+            min-width: 50px;
+            width: 160px;
+            margin: 1rem;
+            margin-left: 2rem;
+        }
+        footer{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        /*p-gateau*/
+        .cake__flex {
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            width:100%;
+        }
+        .cook__img__body {
+            padding-top:1rem ;
+            text-align: center;
+            height: 100%;
+        }
+        .cook__img{
+            object-fit:cover;
+            object-position: center;
+            width: 100%;
+        }
+        .cake__type__info>p{
+            font-size: 1rem;
+            text-align: center;
+            padding-right: 1rem;
+            padding-left: 2rem;
+            margin: 0 auto;
+            padding: 0;
+            width: 250px;
+        }
+    
+        .grid__card {
+            padding: 0;
+            margin-top: 1rem;
+            min-width: 300px;
+        }
+    
+        .card__item{
+            width: 300px;
+        }
+    
+    
+        .card__img {
+            width: 370px;
+            height: 500px;
+            object-fit:cover;
+            object-position: center;
+        }
+        /*p-CONTACT*/
+        .contact__information{
+            width: 100%;
+            height: 600px;
+            margin: 0 auto;
+        }
+    }
+    
+    @media (min-width: 576px) { 
+        .nav-link{
+            color: #FBF8CC;
+            font-size: 1.4rem;
+        }
+        .ingridient__information{
+            display: flex;
+            align-self: center;
+            flex-direction: column;
+        }
+        p{
+            font-size: 1.4rem;
+        }
+        .btn__buy,s {
+            margin-left: 1rem;
+        }
+        .chocolate__info__body{
+            display: flex;
+            flex-direction: row;
+        }
+        .chocolate__img{
+            min-width: 100px;
+            width: 370px;
+            height: 500px;
+            object-fit:cover;
+            object-position: center;
+            margin: 1rem;
+        }
+    
+        .chocolate__info{
+            min-width: 50%;
+            width: 258px;
+            margin: 1rem;
+            margin-left: 2rem;
+        }
+    
+            /*p-gateau*/
+    
+        .cake__type__info>p{
+            text-align: center;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            margin: 0;
+        }
+        .card__item{
+        width: 300px;
+        }
+    
+        .grid__card{
+            padding: 1rem;
+        }
+        .card__img {
+            min-width: 100px;
+            width: 300px;
+            height: 500px;
+            object-fit:cover;
+            object-position: center;
+        }
+            /*p-CONTACT*/
+            .contact__information{
+                width: 600px;
+                height: 600px;
+                margin: 0 auto;
+            }
+    }
+    
+    
+    @media (min-width: 768px) { 
+        .section_2,.section_3,.section_4 {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            } 
+        .chocolate__info__body{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    
+        /*p-gateau*/
+        .cake__text{
+            width: 340px;
+            
+        }
+        .cook__img{
+            min-width: 350px;
+        }
+        .card__section{
+            height: auto;
+        }
+        .contact__information{
+            width: 800px;
+            height: 600px;
+            margin: 0 auto;
+        }
+        
+    }
+    @media (max-width: 768px) { 
+        .section_2,.section_3,.section_4 {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            } 
+            .chocolate__info__body{
+                display: flex;
+                flex-direction: row;
+            }
+            /*p-gateau*/
+    
+            .container__cake__body{
+                width: 350px;
+            }
+            .cake__flex {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: nowrap;
+            }
+            .cake__text{
+                width: 340px;
+                padding-left: 4rem;
+            }
+            .cook__img{
+                min-width: 340px;
+            }
+    
+            .cake__flex{
+                display: flex;
+                flex-wrap: wrap;
+            }
+    
+    }
